@@ -11,7 +11,25 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		20AF1E07B4DA4325AE8137E6 /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0ABC3E0AC9544F64A863ACC5 /* Foundation.ttf */; };
+		2334C991CB5E48BDB0A6B67E /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 75F5E776A74E4D7EA15DE50F /* EvilIcons.ttf */; };
+		5B69C7C6765841AC81DFED2E /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5B791F4CDAE946B88DC1B38A /* Ionicons.ttf */; };
+		6229B0C1F6BD48F99EFB94A2 /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 111B7D3DA1864C58889095B8 /* Entypo.ttf */; };
+		67836139C1C8471B8087AC80 /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 869AB41EEFE24D5C89CB4BA6 /* Octicons.ttf */; };
+		7837D64F51E949B7AA6E02C8 /* FontAwesome5_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C4B897BFC33143B9B9D50142 /* FontAwesome5_Regular.ttf */; };
+		78D871D851E1C6534BF92B4F /* libPods-ShamiriHealth-ShamiriHealthTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F667A42E7DB15217EC1F5B68 /* libPods-ShamiriHealth-ShamiriHealthTests.a */; };
+		7BAAFE630F274DE1A7A01608 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D278F51D80834091BB717006 /* MaterialIcons.ttf */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		8D209D85BD44447497220F07 /* AntDesign.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7845E6EDEA1240A4A9E2736B /* AntDesign.ttf */; };
+		996E70F9990F431A8CF2863B /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 052A5FCAD7DA41DFAA42959E /* FontAwesome.ttf */; };
+		A81675BB5BBF4801953E9AF9 /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 69AD27F878D7404F866AF92B /* Zocial.ttf */; };
+		B20E2836EB954011A413414E /* Fontisto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5D04B724E3634239A8A6C4F7 /* Fontisto.ttf */; };
+		C9D807F06D994D55B06618F6 /* FontAwesome5_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E94B6C28FAD74EBDBF619757 /* FontAwesome5_Solid.ttf */; };
+		CA8126B3F04440B99A15F89F /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 52B0D8E779FF49E3978EA27B /* SimpleLineIcons.ttf */; };
+		D24B5BC61F004B2F78FB8C88 /* libPods-ShamiriHealth.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 275B08DD471C5ADDAA3F2C2A /* libPods-ShamiriHealth.a */; };
+		DFEDF13A3C7A42179E9C3DB3 /* FontAwesome5_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3D7B6F70B674B5A87F7ADF8 /* FontAwesome5_Brands.ttf */; };
+		E0C8C7F4E0B64D10A15750B7 /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B2A89C093DDD4EFFAA7B6AE6 /* Feather.ttf */; };
+		F26927B090024FEA970D446F /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 424770830F7B487B9F2605FA /* MaterialCommunityIcons.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,14 +46,36 @@
 		00E356EE1AD99517003FC87E /* ShamiriHealthTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShamiriHealthTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* ShamiriHealthTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShamiriHealthTests.m; sourceTree = "<group>"; };
+		052A5FCAD7DA41DFAA42959E /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
+		08374F8A1D5CC9D326D19755 /* Pods-ShamiriHealth-ShamiriHealthTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShamiriHealth-ShamiriHealthTests.debug.xcconfig"; path = "Target Support Files/Pods-ShamiriHealth-ShamiriHealthTests/Pods-ShamiriHealth-ShamiriHealthTests.debug.xcconfig"; sourceTree = "<group>"; };
+		0ABC3E0AC9544F64A863ACC5 /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
+		111B7D3DA1864C58889095B8 /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* ShamiriHealth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShamiriHealth.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ShamiriHealth/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ShamiriHealth/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ShamiriHealth/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ShamiriHealth/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ShamiriHealth/main.m; sourceTree = "<group>"; };
+		18D7284CBAD0783EC8E4C0CE /* Pods-ShamiriHealth.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShamiriHealth.release.xcconfig"; path = "Target Support Files/Pods-ShamiriHealth/Pods-ShamiriHealth.release.xcconfig"; sourceTree = "<group>"; };
+		275B08DD471C5ADDAA3F2C2A /* libPods-ShamiriHealth.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ShamiriHealth.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		36488F88EBC930F0CC0F5626 /* Pods-ShamiriHealth.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShamiriHealth.debug.xcconfig"; path = "Target Support Files/Pods-ShamiriHealth/Pods-ShamiriHealth.debug.xcconfig"; sourceTree = "<group>"; };
+		424770830F7B487B9F2605FA /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
+		52B0D8E779FF49E3978EA27B /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
+		5B791F4CDAE946B88DC1B38A /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
+		5D04B724E3634239A8A6C4F7 /* Fontisto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Fontisto.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf"; sourceTree = "<group>"; };
+		69AD27F878D7404F866AF92B /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
+		75F5E776A74E4D7EA15DE50F /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
+		7845E6EDEA1240A4A9E2736B /* AntDesign.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = AntDesign.ttf; path = "../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = ShamiriHealth/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		869AB41EEFE24D5C89CB4BA6 /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
+		AE41D81C1B7C6A6E4DF6F1BA /* Pods-ShamiriHealth-ShamiriHealthTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShamiriHealth-ShamiriHealthTests.release.xcconfig"; path = "Target Support Files/Pods-ShamiriHealth-ShamiriHealthTests/Pods-ShamiriHealth-ShamiriHealthTests.release.xcconfig"; sourceTree = "<group>"; };
+		B2A89C093DDD4EFFAA7B6AE6 /* Feather.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Feather.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; };
+		B3D7B6F70B674B5A87F7ADF8 /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Brands.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; };
+		C4B897BFC33143B9B9D50142 /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Regular.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; };
+		D278F51D80834091BB717006 /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
+		E94B6C28FAD74EBDBF619757 /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Solid.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		F667A42E7DB15217EC1F5B68 /* libPods-ShamiriHealth-ShamiriHealthTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ShamiriHealth-ShamiriHealthTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78D871D851E1C6534BF92B4F /* libPods-ShamiriHealth-ShamiriHealthTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D24B5BC61F004B2F78FB8C88 /* libPods-ShamiriHealth.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,8 +132,34 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				275B08DD471C5ADDAA3F2C2A /* libPods-ShamiriHealth.a */,
+				F667A42E7DB15217EC1F5B68 /* libPods-ShamiriHealth-ShamiriHealthTests.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5DC18A1D57734CF5A89090F5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7845E6EDEA1240A4A9E2736B /* AntDesign.ttf */,
+				111B7D3DA1864C58889095B8 /* Entypo.ttf */,
+				75F5E776A74E4D7EA15DE50F /* EvilIcons.ttf */,
+				B2A89C093DDD4EFFAA7B6AE6 /* Feather.ttf */,
+				052A5FCAD7DA41DFAA42959E /* FontAwesome.ttf */,
+				B3D7B6F70B674B5A87F7ADF8 /* FontAwesome5_Brands.ttf */,
+				C4B897BFC33143B9B9D50142 /* FontAwesome5_Regular.ttf */,
+				E94B6C28FAD74EBDBF619757 /* FontAwesome5_Solid.ttf */,
+				5D04B724E3634239A8A6C4F7 /* Fontisto.ttf */,
+				0ABC3E0AC9544F64A863ACC5 /* Foundation.ttf */,
+				5B791F4CDAE946B88DC1B38A /* Ionicons.ttf */,
+				424770830F7B487B9F2605FA /* MaterialCommunityIcons.ttf */,
+				D278F51D80834091BB717006 /* MaterialIcons.ttf */,
+				869AB41EEFE24D5C89CB4BA6 /* Octicons.ttf */,
+				52B0D8E779FF49E3978EA27B /* SimpleLineIcons.ttf */,
+				69AD27F878D7404F866AF92B /* Zocial.ttf */,
+			);
+			name = Resources;
+			path = "";
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -109,6 +177,8 @@
 				00E356EF1AD99517003FC87E /* ShamiriHealthTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				5DC18A1D57734CF5A89090F5 /* Resources */,
+				907C4C460A0DF13A15103F4D /* Pods */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -124,6 +194,18 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		907C4C460A0DF13A15103F4D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				36488F88EBC930F0CC0F5626 /* Pods-ShamiriHealth.debug.xcconfig */,
+				18D7284CBAD0783EC8E4C0CE /* Pods-ShamiriHealth.release.xcconfig */,
+				08374F8A1D5CC9D326D19755 /* Pods-ShamiriHealth-ShamiriHealthTests.debug.xcconfig */,
+				AE41D81C1B7C6A6E4DF6F1BA /* Pods-ShamiriHealth-ShamiriHealthTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -131,9 +213,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "ShamiriHealthTests" */;
 			buildPhases = (
+				AD6AEA280F308D9D368FEE0D /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
+				D87EDB3E7764D3665B694D09 /* [CP] Embed Pods Frameworks */,
+				3D87EAD9CCEA89C85DCCC34B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,11 +234,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "ShamiriHealth" */;
 			buildPhases = (
+				ADB5AF95227922BE52FB43D3 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				F28C902DFC6B834DE1B919E7 /* [CP] Embed Pods Frameworks */,
+				DF8029720AAEEF94F8FC7EFA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -214,6 +302,22 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				8D209D85BD44447497220F07 /* AntDesign.ttf in Resources */,
+				6229B0C1F6BD48F99EFB94A2 /* Entypo.ttf in Resources */,
+				2334C991CB5E48BDB0A6B67E /* EvilIcons.ttf in Resources */,
+				E0C8C7F4E0B64D10A15750B7 /* Feather.ttf in Resources */,
+				996E70F9990F431A8CF2863B /* FontAwesome.ttf in Resources */,
+				DFEDF13A3C7A42179E9C3DB3 /* FontAwesome5_Brands.ttf in Resources */,
+				7837D64F51E949B7AA6E02C8 /* FontAwesome5_Regular.ttf in Resources */,
+				C9D807F06D994D55B06618F6 /* FontAwesome5_Solid.ttf in Resources */,
+				B20E2836EB954011A413414E /* Fontisto.ttf in Resources */,
+				20AF1E07B4DA4325AE8137E6 /* Foundation.ttf in Resources */,
+				5B69C7C6765841AC81DFED2E /* Ionicons.ttf in Resources */,
+				F26927B090024FEA970D446F /* MaterialCommunityIcons.ttf in Resources */,
+				7BAAFE630F274DE1A7A01608 /* MaterialIcons.ttf in Resources */,
+				67836139C1C8471B8087AC80 /* Octicons.ttf in Resources */,
+				CA8126B3F04440B99A15F89F /* SimpleLineIcons.ttf in Resources */,
+				A81675BB5BBF4801953E9AF9 /* Zocial.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,6 +337,118 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
+		};
+		3D87EAD9CCEA89C85DCCC34B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ShamiriHealth-ShamiriHealthTests/Pods-ShamiriHealth-ShamiriHealthTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ShamiriHealth-ShamiriHealthTests/Pods-ShamiriHealth-ShamiriHealthTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ShamiriHealth-ShamiriHealthTests/Pods-ShamiriHealth-ShamiriHealthTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD6AEA280F308D9D368FEE0D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ShamiriHealth-ShamiriHealthTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ADB5AF95227922BE52FB43D3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ShamiriHealth-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D87EDB3E7764D3665B694D09 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ShamiriHealth-ShamiriHealthTests/Pods-ShamiriHealth-ShamiriHealthTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ShamiriHealth-ShamiriHealthTests/Pods-ShamiriHealth-ShamiriHealthTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ShamiriHealth-ShamiriHealthTests/Pods-ShamiriHealth-ShamiriHealthTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF8029720AAEEF94F8FC7EFA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ShamiriHealth/Pods-ShamiriHealth-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ShamiriHealth/Pods-ShamiriHealth-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ShamiriHealth/Pods-ShamiriHealth-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F28C902DFC6B834DE1B919E7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ShamiriHealth/Pods-ShamiriHealth-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ShamiriHealth/Pods-ShamiriHealth-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ShamiriHealth/Pods-ShamiriHealth-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -286,6 +502,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08374F8A1D5CC9D326D19755 /* Pods-ShamiriHealth-ShamiriHealthTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -312,6 +529,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE41D81C1B7C6A6E4DF6F1BA /* Pods-ShamiriHealth-ShamiriHealthTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -335,6 +553,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36488F88EBC930F0CC0F5626 /* Pods-ShamiriHealth.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -360,6 +579,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18D7284CBAD0783EC8E4C0CE /* Pods-ShamiriHealth.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -414,6 +634,7 @@
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -478,6 +699,7 @@
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
