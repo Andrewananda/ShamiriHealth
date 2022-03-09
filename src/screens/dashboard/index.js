@@ -1,23 +1,45 @@
 import React, {Component} from 'react';
 import {
   Image,
-  ImageBackground,
   ScrollView,
   Text,
   TouchableOpacity,
   View,
 } from 'react-native';
-import {Calendar, CalendarList, Agenda} from 'react-native-calendars';
+import {Calendar} from 'react-native-calendars';
 import {Card} from 'react-native-paper';
 import {moderateScale} from 'react-native-size-matters';
 import styles from './styles';
 import AntDesign from 'react-native-vector-icons/AntDesign';
 import {color_primary, color_white} from '../../utilities/Utilities';
 import moment from 'moment';
+import {ProgressChart} from 'react-native-chart-kit';
 
 class Dashboard extends Component {
   constructor(props) {
     super(props);
+
+    this.state = {
+      config: {
+        backgroundColor: 'transparent',
+        backgroundGradientFrom: '#ffffff',
+        backgroundGradientTo: '#ffffff',
+        color: (opacity = 1) => `rgba(133, 189, 175, ${opacity})`,
+        strokeWidth: 1,
+        barPercentage: 0.5,
+      },
+      datasets: {
+        labels: [
+          'Mental Health',
+          'Satisfaction',
+          'Family/Social Support',
+          'Work',
+          'Sense of Purpose',
+        ],
+        data: [0.9, 0.6, 0.4, 0.2, 0.1],
+        colors: ['#F6E9E7', '#E3A89F', '#BCD9D1', '#85BDAF', '#143029'],
+      },
+    };
   }
 
   render() {
@@ -64,66 +86,20 @@ class Dashboard extends Component {
             elevation: moderateScale(10),
           }}>
           <View>
-            <Text
-              style={styles.wellnessPlanTitle}>
-              TODAY
-            </Text>
+            <Text style={styles.wellnessPlanTitle}>TODAY</Text>
           </View>
-          <View
-            style={{
-              margin: moderateScale(10),
-              flexDirection: 'row',
-              justifyContent: 'space-evenly',
-            }}>
+          <View>
             <View>
-              <Text>Chart</Text>
-            </View>
-            <View style={{flexDirection: 'column'}}>
-              {/*Mental health*/}
-              <View style={styles.todayDetailContainer}>
-                <View style={styles.todayDotIcon} />
-                <View>
-                  <Text style={styles.todayDescription}>Mental Health</Text>
-                </View>
-              </View>
-              {/*Satisfaction*/}
-              <View style={styles.todayDetailContainer}>
-                <View
-                  style={[styles.todayDotIcon, {backgroundColor: '#E3A89F'}]}
-                />
-                <View>
-                  <Text style={styles.todayDescription}>Satisfaction</Text>
-                </View>
-              </View>
-              {/*Family/Social Support*/}
-              <View style={styles.todayDetailContainer}>
-                <View
-                  style={[styles.todayDotIcon, {backgroundColor: '#BCD9D1'}]}
-                />
-                <View>
-                  <Text style={styles.todayDescription}>
-                    Family/Social Support
-                  </Text>
-                </View>
-              </View>
-              {/*Work*/}
-              <View style={styles.todayDetailContainer}>
-                <View
-                  style={[styles.todayDotIcon, {backgroundColor: '#85BDAF'}]}
-                />
-                <View>
-                  <Text style={styles.todayDescription}>Work</Text>
-                </View>
-              </View>
-              {/*Sense of Purpose*/}
-              <View style={styles.todayDetailContainer}>
-                <View
-                  style={[styles.todayDotIcon, {backgroundColor: '#143029'}]}
-                />
-                <View>
-                  <Text style={styles.todayDescription}>Sense of Purpose</Text>
-                </View>
-              </View>
+              <ProgressChart
+                data={this.state.datasets}
+                height={moderateScale(150)}
+                strokeWidth={moderateScale(8)}
+                width={moderateScale(300)}
+                radius={moderateScale(20)}
+                chartConfig={this.state.config}
+                withCustomBarColorFromData={true}
+                hasLegend={false}
+              />
             </View>
           </View>
           <View>
