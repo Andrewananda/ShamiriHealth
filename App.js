@@ -33,7 +33,11 @@ export default class App extends Component {
             options={{headerShown: false}}
             component={Dashboard}
           />
-          <Stack.Screen name={'Detail'} component={Detail} />
+          <Stack.Screen
+            options={{headerShown: false}}
+            name={'Detail'}
+            component={Detail}
+          />
         </Stack.Navigator>
       </NavigationContainer>
     );

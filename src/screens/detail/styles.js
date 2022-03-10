@@ -32,4 +32,34 @@ export default {
   tabTextStyle: {
     borderColor: '#000',
   },
+  recommendationImage: {
+    height: moderateScale(150),
+    borderTopLeftRadius: moderateScale(10),
+    borderTopRightRadius: moderateScale(10),
+    width: moderateScale(300),
+  },
+  recommendationTitle: {
+    color: '#C4C4C4',
+    marginHorizontal: moderateScale(10),
+    fontSize: moderateScale(10),
+  },
+  recommendationDescription: {
+    marginHorizontal: moderateScale(10),
+    color: '#000',
+    fontSize: moderateScale(10),
+  },
+  recommendationText: {
+    color: '#000',
+    fontWeight: 'bold',
+    fontSize: moderateScale(16),
+  },
+  mentalHealthText: {
+    color: '#000',
+    fontSize: moderateScale(14),
+    fontWeight: 'bold',
+  },
+  recommendationView: {
+    marginVertical: moderateScale(10),
+    marginHorizontal: moderateScale(10),
+  }
 };

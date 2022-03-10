@@ -19,6 +19,7 @@ class Dashboard extends Component {
         backgroundGradientFrom: '#ffffff',
         backgroundGradientTo: '#ffffff',
         color: (opacity = 1) => `rgba(133, 189, 175, ${opacity})`,
+        labelColor: (opacity = 1) => `rgba(151, 151, 151, ${opacity})`,
         strokeWidth: 1,
         barPercentage: 0.5,
       },
