@@ -1,11 +1,5 @@
 import React, {Component} from 'react';
-import {
-  Image,
-  ScrollView,
-  Text,
-  TouchableOpacity,
-  View,
-} from 'react-native';
+import {Image, ScrollView, Text, TouchableOpacity, View} from 'react-native';
 import {Calendar} from 'react-native-calendars';
 import {Card} from 'react-native-paper';
 import {moderateScale} from 'react-native-size-matters';
@@ -88,22 +82,23 @@ class Dashboard extends Component {
           <View>
             <Text style={styles.wellnessPlanTitle}>TODAY</Text>
           </View>
-          <View>
+          <TouchableOpacity
+            onPress={() => this.props.navigation.navigate('Detail')}>
             <View>
-              <ProgressChart
-                data={this.state.datasets}
-                height={moderateScale(150)}
-                strokeWidth={moderateScale(8)}
-                width={moderateScale(300)}
-                radius={moderateScale(20)}
-                chartConfig={this.state.config}
-                withCustomBarColorFromData={true}
-                hasLegend={false}
-              />
+              <View>
+                <ProgressChart
+                  data={this.state.datasets}
+                  height={moderateScale(150)}
+                  strokeWidth={moderateScale(8)}
+                  width={moderateScale(300)}
+                  radius={moderateScale(20)}
+                  chartConfig={this.state.config}
+                  withCustomBarColorFromData={true}
+                  hasLegend={false}
+                />
+              </View>
             </View>
-          </View>
-          <View>
-            <TouchableOpacity
+            <View
               style={{
                 flexDirection: 'row',
                 justifyContent: 'flex-end',
@@ -117,8 +112,8 @@ class Dashboard extends Component {
                 style={{alignSelf: 'center', fontWeight: 'bold'}}
                 size={moderateScale(8)}
               />
-            </TouchableOpacity>
-          </View>
+            </View>
+          </TouchableOpacity>
         </Card>
         <Card style={styles.wellnessCard}>
           <Text style={styles.wellnessPlanTitle}>Your Wellness Plan</Text>
