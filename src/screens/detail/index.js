@@ -6,13 +6,14 @@ import styles from './styles';
 import {ProgressChart} from 'react-native-chart-kit';
 import {Card} from 'react-native-paper';
 import DailyScoreComponent from './DailyScoreComponent';
+import WeeklyScoreContainer from './WeeklyScoreContainer';
 
 class Detail extends Component {
   constructor(props) {
     super(props);
 
     this.state = {
-      selectedIndex: 0,
+      selectedIndex: 1,
       config: {
         backgroundColor: 'transparent',
         backgroundGradientFrom: '#ffffff',
@@ -99,8 +100,20 @@ class Detail extends Component {
     } else {
       //Weekly
       return (
-        <View>
-          <Text>Weekly Tab</Text>
+        <View style={{margin: moderateScale(10)}}>
+          <View style={{marginHorizontal: moderateScale(10)}}>
+            <Text
+              style={{
+                color: '#000',
+                fontSize: moderateScale(14),
+                fontWeight: 'bold',
+              }}>
+              Mental Health
+            </Text>
+          </View>
+          <View>
+            <WeeklyScoreContainer />
+          </View>
         </View>
       );
     }
